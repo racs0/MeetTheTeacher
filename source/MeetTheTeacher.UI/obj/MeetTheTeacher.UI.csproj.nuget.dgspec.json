@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.UI\\MeetTheTeacher.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\MeetTheTeacher.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\MeetTheTeacher.Logic.csproj",
+        "projectName": "MeetTheTeacher.Logic",
+        "projectPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\MeetTheTeacher.Logic.csproj",
+        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+        "outputPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.UI\\MeetTheTeacher.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.UI\\MeetTheTeacher.UI.csproj",
+        "projectName": "MeetTheTeacher.UI",
+        "projectPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.UI\\MeetTheTeacher.UI.csproj",
+        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+        "outputPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\MeetTheTeacher.Logic.csproj": {
+                "projectPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\MeetTheTeacher.Logic\\MeetTheTeacher.Logic.csproj"
+              },
+              "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\Utils.csproj": {
+                "projectPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\Utils.csproj",
+        "projectName": "Utils",
+        "projectPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+        "outputPath": "D:\\Dokumente\\Abendschule\\5ABIF\\C#\\meet-the-teacher\\source\\Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
